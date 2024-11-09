@@ -33,17 +33,20 @@ Ensure you have the following installed:
 ### Setup and Installation
 
 1. **Clone the repository**:
+   ```bash
    git clone https://github.com/buenocarlos6971/Finance-BE-Project.git
    cd Finance-BE-Project
    
 3. **Restore and update the database**:
+   ```bash
    dotnet restore
    dotnet ef database update
    
 5. **Run the application via SWAGGER**:
+   ```bash
    dotnet watch run
 
-   ### Testing with Swagger
+### Testing with Swagger
 
 Access Swagger UI at `http://localhost:5175/swagger` to view and test the available API endpoints. Swagger is configured to allow easy API authentication using JWT:
 
